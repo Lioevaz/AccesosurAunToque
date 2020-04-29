@@ -1,2 +1,2 @@
 # AccesosurAunToque
-Proyecto de web ecommerce
+Proyecto web de ecommerce
