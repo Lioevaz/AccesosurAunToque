@@ -1,0 +1,91 @@
+/* Reseteo */
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+    margin: 0;
+  
+  }
+
+
+  /* Header -Menu - Nav*/
+
+  .header{
+    display: flex;
+    background:#232F3E;
+    justify-content: space-between;
+    height: 100px;
+    font-family: 'Fjalla One', sans-serif;
+    
+    
+  }
+
+.nav-search-input {
+    padding: 7px 60px 9px 15px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 0 rgba(180, 126, 126, 0.2);
+    height: 39px;
+    color: #333;
+    width: 50%;
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+  /* Lista del Menu   */
+  .header ul {
+    display: flex;
+    height: inherit;
+  }
+  /* .header ol li hereda de .header ol */
+  .header ul li { 
+    height: inherit;
+    
+  }
+  
+  /* Elementos a del menu*/
+  .header a{
+  color:white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: small;
+
+  }
+
+  .header a:hover {
+    color: gray;
+    }
+ 
+
+  /* .menu hereda de .header que es su padre */
+  .menu { 
+    height: inherit;
+  }
+
+/* Logo */
+.image-logo{
+height: 100px;
+
+}
+
+
+.menu-list{
+    
+    font-size: 1rem;
+}
+/* Section principal*/
+.main-section{
+
+}
+
+
